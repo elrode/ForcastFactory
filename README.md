@@ -1,2 +1,2 @@
 # ForcastFactory
- Consuming National Weather Service Rest forcast endpoints
+ Consuming National Weather Service forcast REST endpoints
