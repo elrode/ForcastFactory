@@ -7,9 +7,6 @@ import points.Points;
 import java.util.List;
 
 public class WeatherForecast {
-    private String gridID;
-    private String gridX;
-    private String gridY;
     private final String forecastURL;
 
     public WeatherForecast(double gpsX, double gpsY){
@@ -25,9 +22,6 @@ public class WeatherForecast {
     }
 
     public WeatherForecast(String gridID, String gridX, String gridY){
-        this.gridID = gridID;
-        this.gridX = gridX;
-        this.gridY = gridY;
         forecastURL = "https://api.weather.gov/gridpoints/" + gridID + "/" + gridX + "," + gridY + "/forecast";
     }
 
